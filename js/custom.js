@@ -178,20 +178,28 @@ $(document).ready(function()
 		$(slider).owlCarousel(
 		{
 			items: 3,
+			loop: true,
+			autoplay: true,
+			autoplayTimeout: 8000,
 			margin: 24,
+			nav: true,
+			dots: false,
 			responsive:
 			{
 				0: 
 				{
-					items: 1
+					items: 1,
+					nav: false
 				},
 				768:
 				{
-					items: 2
+					items: 2,
+					nav: true
 				},
 				992:
 				{
-					items: 3
+					items: 3,
+					nav: true
 				}
 			}
 		});
