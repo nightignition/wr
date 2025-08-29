@@ -267,7 +267,7 @@ $(document).ready(function()
 		{
 			loader.classList.remove("active");
 			body.classList.remove("preload-active");
-		}, 3000);
+		}, 1500);
 	}
 
 });
