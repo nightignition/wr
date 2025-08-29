@@ -559,7 +559,7 @@ figure
 	letter-spacing: 0.01em;
 	color: rgba(255,255,255,0.6);;
 }
-.main-nav-links li a:hover, .main-nav-links li.active a
+.main-nav-links li a:hover, .main-nav-links li a.active
 {
 	color: var(--white);
 }
@@ -986,11 +986,19 @@ figure
 {
 	padding-top: 106px;
 	padding-bottom: 140px;
-	background-color: var(--blue);
+	background-color: transparent;
+}
+.parallax-mirror
+{
+	z-index: 1 !important;
 }
 .testimonial-slider-container
 {
 	margin-top: 67px;
+}
+.testimonials-title-container
+{
+	z-index: 2 !important;
 }
 .testimonials-title
 {
@@ -1150,6 +1158,7 @@ figure
 
 .footer
 {
+	position: relative;
 	background-color: var(--blue);
 	overflow: hidden;
 }
@@ -1216,4 +1225,33 @@ figure
 .footer-pic img
 {
 	max-width: fit-content;
+}
+.terms-and-conditions
+{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%) rotate(-90deg);
+	-moz-transform: translateY(-50%) rotate(-90deg);
+	-ms-transform: translateY(-50%) rotate(-90deg);
+	-o-transform: translateY(-50%) rotate(-90deg);
+	transform: translateY(-50%) rotate(-90deg);
+	right: -142px;
+	padding-bottom: 21px;
+}
+.terms-and-conditions nav ul
+{
+	gap: 10px;
+}
+.terms-and-conditions nav ul li a
+{
+	font-family: 'Tex', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(255,255,255,0.8);
+	letter-spacing: 0.01em;
+	line-height: 1.4;
+}
+.terms-and-conditions nav ul li a:hover
+{
+	color: rgba(255,255,255,1);
 }

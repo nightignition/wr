@@ -9,6 +9,9 @@
 3. Init Language
 4. Init Menu
 5. Init Testimonials Slider
+6. Init Parallax
+7. Init Section Mark
+8. Init Wow
 
 
 ******************************/
@@ -27,6 +30,9 @@ $(document).ready(function()
 	initLanguage();
 	initMenu();
 	initSlider();
+	initParallax();
+	sectionMark();
+	initWow();
 
 	$(window).on('resize', function()
 	{
@@ -36,6 +42,13 @@ $(document).ready(function()
 	$(document).on('scroll', function()
 	{
 		initHeader();
+		sectionMark();
+	});
+
+	$(document).on('load', function()
+	{
+		initHeader();
+		sectionMark();
 	});
 
 	/* 
@@ -132,6 +145,7 @@ $(document).ready(function()
 		const btn = document.getElementById('hamburger-button');
 		const menu = document.getElementById('menu');
 		const close = document.getElementById('hamburger-close');
+		const menuItems = $('.menu-nav-item');
 
 		btn.addEventListener("click", function(e)
 		{
@@ -142,6 +156,12 @@ $(document).ready(function()
 		{
 			menu.classList.toggle("active");
 		});
+
+		menuItems.on('click', function()
+		{
+			menu.classList.toggle("active");
+		});
+		
 	}
 
 	/* 
@@ -173,6 +193,61 @@ $(document).ready(function()
 				}
 			}
 		});
+	}
+
+	/* 
+
+	6. Init Parallax
+
+	*/
+
+	function initParallax()
+	{
+		$('.parallax-window').parallax({imageSrc: '/path/to/testimonials2.png'});
+	}
+
+	/* 
+
+	7. Init Section Mark
+
+	*/
+
+	function sectionMark()
+	{
+		const sections = document.querySelectorAll("section[id]");
+  		const navLinks = document.querySelectorAll(".scroll_link");
+
+		let scrollY = window.pageYOffset;
+
+		sections.forEach(section =>
+		{
+			const sectionTop = section.offsetTop - 200; // offset for early trigger
+			const sectionHeight = section.offsetHeight;
+			const sectionId = section.getAttribute("id");
+
+			if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight)
+			{
+				navLinks.forEach(link =>
+				{
+					link.classList.remove("active");
+					if (link.getAttribute("href") === `#${sectionId}`)
+					{
+						link.classList.add("active");
+					}
+				});
+			}
+		});
+	}
+
+	/* 
+
+	8. Init Wow
+
+	*/
+
+	function initWow()
+	{
+		new WOW().init();
 	}
 
 });
