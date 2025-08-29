@@ -188,18 +188,15 @@ $(document).ready(function()
 			{
 				0: 
 				{
-					items: 1,
-					nav: false
+					items: 1
 				},
 				768:
 				{
-					items: 2,
-					nav: true
+					items: 2
 				},
 				992:
 				{
-					items: 3,
-					nav: true
+					items: 3
 				}
 			}
 		});
