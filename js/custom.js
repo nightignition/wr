@@ -12,6 +12,7 @@
 6. Init Parallax
 7. Init Section Mark
 8. Init Wow
+9. Init Loader
 
 
 ******************************/
@@ -33,6 +34,7 @@ $(document).ready(function()
 	initParallax();
 	sectionMark();
 	initWow();
+	initLoader();
 
 	$(window).on('resize', function()
 	{
@@ -248,6 +250,21 @@ $(document).ready(function()
 	function initWow()
 	{
 		new WOW().init();
+	}
+
+	/* 
+
+	9. Init Loader
+
+	*/
+
+	function initLoader()
+	{
+		const loader = document.getElementById("loader");
+		setTimeout(() =>
+		{
+			loader.classList.remove("active");
+		}, 3000);
 	}
 
 });
