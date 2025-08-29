@@ -261,9 +261,12 @@ $(document).ready(function()
 	function initLoader()
 	{
 		const loader = document.getElementById("loader");
+		const body = document.querySelector("body");
+		body.classList.add("preload-active");
 		setTimeout(() =>
 		{
 			loader.classList.remove("active");
+			body.classList.remove("preload-active");
 		}, 3000);
 	}
 
