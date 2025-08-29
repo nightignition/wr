@@ -88,6 +88,10 @@
     {
         padding-right: 24px;
     }
+    .testimonial
+    {
+        height: 240px;
+    }
 }
 
 /************
@@ -233,6 +237,22 @@
         right: 9px;
         bottom: 191px;
     }
+    .project-items > article:not(:last-of-type)
+    {
+        margin-bottom: 124px;
+    }
+    .project-items > article:nth-child(odd) .project-content
+    {
+        padding-right: 32px;
+    }
+    .project-items > article:nth-child(even) .project-content
+    {
+        padding-left: 32px;
+    }
+    .project-content
+    {
+        padding-top: 24px;
+    }
 }
 
 /************
@@ -338,6 +358,10 @@
         bottom: -40px;
         height: 89.7%;
     }
+    .technologies
+    {
+        padding-bottom: 73px;
+    }
     .tech-item
     {
         padding-bottom: 269px;
@@ -350,6 +374,44 @@
     .tech-list
     {
         margin-top: 19px;
+    }
+    .testimonials
+    {
+        padding-top: 93px;
+        padding-bottom: 108px;
+    }
+    .testimonial-slider-container
+    {
+        margin-top: 52px;
+    }
+    .project-title
+    {
+        font-size: 24px;
+    }
+    .project-items > article .project-content
+    {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .project-image img
+    {
+        max-width: 90%;
+    }
+    .projects
+    {
+        padding-top: 108px;
+    }
+    .project-items
+    {
+        margin-top: 67px;
+    }
+    .project-title
+    {
+        margin-top: 9px;
+    }
+    .project-list
+    {
+        margin-top: 22px;
     }
 }
 
@@ -591,6 +653,27 @@
         width: 115px;
         right: -1px;
         bottom: 134px;
+    }
+    .testimonial
+    {
+        height: 222px;
+    }
+    .testimonials
+    {
+        padding-top: 54px;
+        padding-bottom: 47px;
+    }
+    .project-image img
+    {
+        max-width: 75%;
+    }
+    .project-items > article:not(:last-of-type)
+    {
+        margin-bottom: 100px;
+    }
+    .projects
+    {
+        padding-bottom: 95px;
     }
 }
 

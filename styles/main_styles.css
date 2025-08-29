@@ -306,17 +306,10 @@ section
 {
 	height: 100%;
 }
-/* Revert back to using pixels for gutter size - Bootstrap fix */
-/* .row
+figure
 {
-	--bs-gutter-x: 20px;
-	--bs-gutter-y: 20px;
+	margin: 0;
 }
-.col
-{
-	padding-left: calc(var(--bs-gutter-x) / 2);
-	padding-right: calc(var(--bs-gutter-x) / 2);
-} */
 
 /*********************************
 3. Menu
@@ -851,11 +844,6 @@ section
 	padding-top: 54px;
 	padding-bottom: 208px;
 }
-/* .tech-container
-{
-	padding-left: 0;
-	padding-right: 0;
-} */
 .tech-items
 {
 	margin-top: 56px;
@@ -988,4 +976,244 @@ section
 	font-size: 20px;
 	font-weight: 400;
 	color: rgba(255,255,255,0.94);
+}
+
+/*********************************
+8. Testimonials
+*********************************/
+
+.testimonials
+{
+	padding-top: 106px;
+	padding-bottom: 140px;
+	background-color: var(--blue);
+}
+.testimonial-slider-container
+{
+	margin-top: 67px;
+}
+.testimonials-title
+{
+	color: var(--white);
+}
+.testimonial
+{
+	background-color: rgba(255,255,255,0.95);
+	border-radius: 19px;
+	overflow: hidden;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	height: 222px;
+}
+.testimonial-quote
+{
+	font-family: var(--font1);
+	font-size: 16px;
+	letter-spacing: 0.01em;
+	line-height: 20px;
+	color: rgba(0,0,0,.8);
+}
+.avatar
+{
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+.testimonial-author img
+{
+	
+}
+.testimonial-author span span
+{
+	display: block;
+}
+.testimonial-author span span:first-child
+{
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+	line-height: 17.5px;
+	color: var(--black);
+}
+.testimonial-author span span:last-child
+{
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: 0.01em;
+	color: rgba(0,0,0,.8);
+	line-height: 13.75px;
+}
+.avatar-icon
+{
+	display: block;
+	position: absolute;
+	right: -5px;
+	bottom: -5px;
+	width: 20px !important;
+	height: 20px;
+}
+
+/*********************************
+9. Projects
+*********************************/
+
+.projects
+{
+	padding-top: 118px;
+	padding-bottom: 120px;
+}
+.projects .section-subtitle
+{
+	max-width: 410px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.project-subtext
+{
+	height: 22px;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 5px;
+	background-color: #D0E8FB;
+	overflow: hidden;
+}
+.project-subtext img
+{
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+.project-subtext span
+{
+	font-family: 'Tex', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	color: var(--blue);
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+.project-items
+{
+	margin-top: 93px;
+}
+.project-items > article:not(:last-of-type)
+{
+	margin-bottom: 138px;
+}
+.project-items > article:nth-child(odd) .project-content
+{
+	padding-right: 60px;
+}
+.project-items > article:nth-child(even) .project-content
+{
+	padding-left: 60px;
+}
+.project-content
+{
+	padding-top: 88px;
+}
+.project-title-container
+{
+	margin-top: 2px;
+}
+.project-title
+{
+	font-size: 48px;
+}
+.project-list
+{
+	margin-top: 27px;
+}
+.project-list li:not(:last-of-type)
+{
+	margin-bottom: 20px;
+}
+.project-list li img
+{
+	margin-right: 16px;
+}
+.project-list li p
+{
+	font-size: 16px;
+	font-weight: 400;
+	color: #333326B2;
+	line-height: 1.5;
+	letter-spacing: 0.01em;
+}
+
+/*********************************
+10. Footer
+*********************************/
+
+.footer
+{
+	background-color: var(--blue);
+	overflow: hidden;
+}
+/* .footer .container
+{
+	max-width: 1200px;
+} */
+.footer-content
+{
+	padding-top: 105px;
+	padding-bottom: 139px;
+}
+.footer-title
+{
+	color: var(--white);
+	white-space: nowrap;
+}
+.footer-subtext
+{
+	font-family: var(--font1);
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 32.64px;
+	color: rgba(255,255,255,0.8);
+	max-width: 638px;
+	margin-top: 14px;
+	letter-spacing: 0.01em;
+}
+.footer-buttons
+{
+	margin-top: 24px;
+	gap: 18px;
+}
+.footer-button
+{
+	height: 68px;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 12px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.footer-button img
+{
+	margin-right: 10px;
+}
+.footer-button span
+{
+	font-size: 24px;
+	font-weight: 400;
+	color: var(--blue);
+	letter-spacing: 0.01em;
+	white-space: nowrap;
+}
+.footer-button:hover
+{
+	background-color: rgba(255, 255, 255, 0.8);
+}
+.footer-pic
+{
+	position: absolute;
+	bottom: -308px;
+	right: 83px;
+}
+.footer-pic img
+{
+	max-width: fit-content;
 }

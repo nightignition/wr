@@ -8,6 +8,7 @@
 2. Init Header
 3. Init Language
 4. Init Menu
+5. Init Testimonials Slider
 
 
 ******************************/
@@ -25,6 +26,7 @@ $(document).ready(function()
 	initHeader();
 	initLanguage();
 	initMenu();
+	initSlider();
 
 	$(window).on('resize', function()
 	{
@@ -139,6 +141,37 @@ $(document).ready(function()
 		close.addEventListener("click", function(e)
 		{
 			menu.classList.toggle("active");
+		});
+	}
+
+	/* 
+
+	5. Init Testimonials Slider
+
+	*/
+
+	function initSlider()
+	{
+		const slider = document.getElementById("slider");
+		$(slider).owlCarousel(
+		{
+			items: 3,
+			margin: 24,
+			responsive:
+			{
+				0: 
+				{
+					items: 1
+				},
+				768:
+				{
+					items: 2
+				},
+				992:
+				{
+					items: 3
+				}
+			}
 		});
 	}
 

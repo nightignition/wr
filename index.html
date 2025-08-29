@@ -39,11 +39,11 @@
 			<div class="menu-content text-center">
 				<nav class="menu-nav">
 					<ul class="d-flex flex-column align-items-center">
-						<li><a href="#">Forside</a></li>
-						<li><a href="#">Om mig</a></li>
-						<li><a href="#">Teknologier</a></li>
-						<li><a href="#">Hvad siger andre?</a></li>
-						<li><a href="#">Projekterfaring</a></li>
+						<li><a href="#hero">Forside</a></li>
+						<li><a href="#about">Om mig</a></li>
+						<li><a href="#technologies">Teknologier</a></li>
+						<li><a href="#testimonials">Hvad siger andre?</a></li>
+						<li><a href="#projects">Projekterfaring</a></li>
 					</ul>
 				</nav>
 				<!-- Language Selector -->
@@ -67,11 +67,11 @@
 				<!-- Main Navigation -->
 				<nav class="main-nav">
 					<ul class="main-nav-links d-flex flex-row align-items-center">
-						<li class="active"><a href="#">Forside</a></li>
+						<li class="active"><a href="#hero">Forside</a></li>
 						<li><a href="#about">Om mig</a></li>
 						<li><a href="#technologies">Teknologier</a></li>
-						<li><a href="#">Hvad siger andre?</a></li>
-						<li><a href="#">Projekterfaring</a></li>
+						<li><a href="#testimonials">Hvad siger andre?</a></li>
+						<li><a href="#projects">Projekterfaring</a></li>
 					</ul>
 				</nav>
 				<!-- Language Selector -->
@@ -89,7 +89,7 @@
 	</header>
 
 	<!-- HERO -->
-	<section class="hero">
+	<section class="hero" id="hero">
 		<div class="hero_content_container">
 			<div class="hero_content d-flex flex-column justify-content-center">
 				<h1 class="hero-title">William Rex</h1>
@@ -279,6 +279,194 @@
 								<span>Extensions</span>
 							</li>
 						</ul>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- TESTIMONIALS -->
+	<section class="testimonials" id="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="testimonials-title-container text-center">
+						<h2 class="testimonials-title">Hvad siger andre?</h2>
+					</div>
+					<div class="testimonial-slider-container">
+						<!-- Testimonials Slider -->
+						<div class="testimonials-slider owl-carousel" id="slider">
+							<!-- Testimonial -->
+							<figure class="testimonial d-flex flex-column justify-content-between">
+								<blockquote class="testimonial-quote"><strong>Det var en fornøjelse</strong> at arbejde sammen med William - teknisk dygtig, kompetent, og meget ansvarsfuld. </blockquote>
+								<figcaption class="testimonial-author d-flex flex-row align-items-center">
+									<div class="avatar">
+										<img src="images/user-1.png" alt="display picture of a testimonial author">
+										<img src="images/linkedIn_icon.svg" class="avatar-icon" alt="20 by 20 pixels icon for a linkedin brand">
+									</div>
+									<span>
+										<span>Jonas Schmidt</span>
+										<span>LamaLeap</span>
+									</span>
+								</figcaption>
+							</figure>
+							<!-- Testimonial -->
+							<figure class="testimonial d-flex flex-column justify-content-between">
+								<blockquote class="testimonial-quote"><strong>Jeg har haft stor glæde</strong> af at arbejde sammen med William – han er både teknisk skarp, engageret og tager ansvar for, at tingene lykkes.</blockquote>
+								<figcaption class="testimonial-author d-flex flex-row align-items-center">
+									<div class="avatar">
+										<img src="images/user-2.png" alt="display picture of a testimonial author">
+										<img src="images/linkedIn_icon.svg" class="avatar-icon" alt="20 by 20 pixels icon for a linkedin brand">
+									</div>
+									<span>
+										<span>Dan Jensen</span>
+										<span>Novo Nordisk</span>
+									</span>
+								</figcaption>
+							</figure>
+							<!-- Testimonial -->
+							<figure class="testimonial d-flex flex-column justify-content-between">
+								<blockquote class="testimonial-quote">Samarbejdet med William har været meget positivt – <strong>han leverer høj kvalitet</strong>, er effektiv i sin kommunikation og tager initiativ, når det kræves.</blockquote>
+								<figcaption class="testimonial-author d-flex flex-row align-items-center">
+									<div class="avatar">
+										<img src="images/user-3.png" alt="display picture of a testimonial author">
+										<img src="images/linkedIn_icon.svg" class="avatar-icon" alt="20 by 20 pixels icon for a linkedin brand">
+									</div>
+									<span>
+										<span>Magnus Brath</span>
+										<span>Danske Konsulenter</span>
+									</span>
+								</figcaption>
+							</figure>
+							<!-- Testimonial -->
+							<figure class="testimonial d-flex flex-column justify-content-between">
+								<blockquote class="testimonial-quote">William er en værdifuld kollega – professionel, kompetent og <strong>altid med en konstruktiv tilgang til opgaverne.</strong></blockquote>
+								<figcaption class="testimonial-author d-flex flex-row align-items-center">
+									<div class="avatar">
+										<img src="images/user-4.png" alt="display picture of a testimonial author">
+										<img src="images/linkedIn_icon.svg" class="avatar-icon" alt="20 by 20 pixels icon for a linkedin brand">
+									</div>
+									<span>
+										<span>Michelle Thomsen</span>
+										<span>Bestseller</span>
+									</span>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- PROJECTS -->
+	<section class="projects" id="projects">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<!-- Section Title -->
+					<div class="section-title-container text-center">
+						<h2 class="section-title title-underline">Projekterfaring</h2>
+						<p class="section-subtitle">Få et indblik i mine kompetencer og projekter</p>
+					</div>
+				</div>
+				<div class="project-items">
+					<!-- Project -->
+					<article class="project">
+						<div class="row">
+							<div class="col-lg-5 col-md-6 order-md-1 order-2">
+								<div class="project-content">
+									<div class="project-title-container">
+										<div class="project-subtext d-inline-flex flex-row align-items-center">
+											<img src="images/crown.svg" alt="a simple crown illustration">
+											<span>Lederskab og kommunikation</span>
+										</div>
+										<h3 class="project-title">Jeg har...</h3>
+									</div>
+									<ul class="project-list">
+										<li class="d-flex flex-row align-items-center">
+											<img src="images/star2.svg" alt="">
+											<p>Defineret tekniske retningslinjer og arkitekturprincipper i samarbejde med projektledelse</p>
+										</li>
+										<li class="d-flex flex-row align-items-center">
+											<img src="images/star2.svg" alt="">
+											<p>Ledet tekniske teams og foretog code reviews og løsningsvalidering</p>
+										</li>
+										<li class="d-flex flex-row align-items-center">
+											<img src="images/star2.svg" alt="">
+											<p>Deltaget i presales og kundeworkshops som teknisk rådgiver</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-7 col-md-6 order-md-2 order-1">
+								<div class="project-image text-center">
+									<img src="images/project-1.png" alt="3d illustration showing people in a business meeting">
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- Project -->
+					<article class="project">
+						<div class="row">
+							<div class="col-lg-7 col-md-6">
+								<div class="project-image text-center">
+									<img src="images/project-2.png" alt="cloud technology illlustration">
+								</div>
+							</div>
+							<div class="col-lg-5 col-md-6">
+								<div class="project-content">
+									<div class="project-title-container">
+										<div class="project-subtext d-inline-flex flex-row align-items-center">
+											<img src="images/GitMerge.svg" alt="git merge icon">
+											<span>cloud teknologi og automation</span>
+										</div>
+										<h3 class="project-title">Jeg har...</h3>
+									</div>
+									<ul class="project-list">
+										<li class="d-flex flex-row align-items-center">
+											<img src="images/star2.svg" alt="">
+											<p>Været ansvarlig for CI/CD setup og automatiseret test i Azure DevOps</p>
+										</li>
+										<li class="d-flex flex-row align-items-center">
+											<img src="images/star2.svg" alt="">
+											<p>Migreret løsninger fra AX2012 til D365FO med fokus på performance og skalerbarhed</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- Project -->
+					<article class="project">
+						<div class="row">
+							<div class="col-lg-5 col-md-6 order-md-1 order-2">
+								<div class="project-content">
+									<div class="project-title-container">
+										<div class="project-subtext d-inline-flex flex-row align-items-center">
+											<img src="images/Sparkle.svg" alt="a sparkle illustration">
+											<span>design og compliance</span>
+										</div>
+										<h3 class="project-title">Jeg har...</h3>
+									</div>
+									<ul class="project-list">
+										<li class="d-flex flex-row align-items-center">
+											<img src="images/star2.svg" alt="">
+											<p>Designet og udviklet modulære løsninger til store danske virksomheder</p>
+										</li>
+										<li class="d-flex flex-row align-items-center">
+											<img src="images/star2.svg" alt="">
+											<p>Implementeret integrationsstrategier og sikret overholdelse af sikkerhedsstandarder</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-7 col-md-6 order-md-2 order-1">
+								<div class="project-image text-center">
+									<img src="images/project-3.png" alt="3d illustration showing a 3d electronics circuit board">
+								</div>
+							</div>
+						</div>
 					</article>
 				</div>
 			</div>
