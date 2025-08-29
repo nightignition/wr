@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>William Rex</title>
+<link rel="icon" href="images/favicon.png">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="William Rex Portfolio Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-5.3.8/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+<body>
+<div class="texture"></div>
+
+<div class="super_container">
+
+	<!-- HAMBURGER BUTTON -->
+	<button class="hamburger-button" id="hamburger-button">
+		<span class="hamburger d-flex flex-column align-items-center justify-content-center">
+			<span></span>
+			<span></span>
+			<span></span>
+		</span>
+	</button>
+
+	<!-- MENU -->
+	<div class="menu" id="menu">
+		<div class="menu-inner h-100 d-flex flex-column align-items-center justify-content-center">
+			<!-- Menu close button -->
+			<button class="hamburger-close" id="hamburger-close">
+				<span class="close-btn" id="close-btn"></span>
+			</button>
+			<!-- Menu content -->
+			<div class="menu-content text-center">
+				<nav class="menu-nav">
+					<ul class="d-flex flex-column align-items-center">
+						<li><a href="#">Forside</a></li>
+						<li><a href="#">Om mig</a></li>
+						<li><a href="#">Teknologier</a></li>
+						<li><a href="#">Hvad siger andre?</a></li>
+						<li><a href="#">Projekterfaring</a></li>
+					</ul>
+				</nav>
+				<!-- Language Selector -->
+				<div class="language-selector language-selector-menu" id="langPickerMenu">
+					<div class="selected-flag">
+						<img src="images/dk.svg" alt="Denmark Country Flag Image" data-country="DK">
+					</div>
+					<ul class="dropdown-menu dropdown">
+						<li><a href="#"><img src="images/dk.svg" alt="Denmark Country Flag Image" data-country="DK"></a></li>
+						<li><a href="#"><img src="images/gb.svg" alt="Great Britain Country Flag Image" data-country="GB"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- HEADER -->
+	<header class="header d-flex flex-row align-items-center justify-content-center" id="header">
+		<div class="header-inner d-flex flex-row align-items-center justify-content-end">
+			<div class="header-content d-flex flex-row align-items-center">
+				<!-- Main Navigation -->
+				<nav class="main-nav">
+					<ul class="main-nav-links d-flex flex-row align-items-center">
+						<li class="active"><a href="#">Forside</a></li>
+						<li><a href="#about">Om mig</a></li>
+						<li><a href="#technologies">Teknologier</a></li>
+						<li><a href="#">Hvad siger andre?</a></li>
+						<li><a href="#">Projekterfaring</a></li>
+					</ul>
+				</nav>
+				<!-- Language Selector -->
+				<div class="language-selector" id="langPicker">
+					<div class="selected-flag">
+						<img src="images/dk.svg" alt="Denmark Country Flag Image" data-country="DK">
+					</div>
+					<ul class="dropdown">
+						<li><a href="#"><img src="images/dk.svg" alt="Denmark Country Flag Image" data-country="DK"></a></li>
+						<li><a href="#"><img src="images/gb.svg" alt="Great Britain Country Flag Image" data-country="GB"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- HERO -->
+	<section class="hero">
+		<div class="hero_content_container">
+			<div class="hero_content d-flex flex-column justify-content-center">
+				<h1 class="hero-title">William Rex</h1>
+				<p class="hero-subtext">Freelance Senior D365FO Developer / Technical Solution Architect</p>
+				<div class="hero-buttons-container buttons-lg d-flex flex-row align-items-center">
+					<a href="#" class="button button-primary trans_300">Kontakt mig</a>
+					<a href="#" class="button button-secondary trans_300">Læs mere</a>
+				</div>
+			</div>
+			<!-- <div class="background_image" style="background-image:url(images/hero-1920.png)"></div> -->
+			<!-- <img src="images/william-1920.png" class="hero_pic" alt="3d illustration showing william rex working on his laptop"> -->
+			<!-- <div class="hero_pic d-flex flex-column align-items-end"><img src="images/william-1920.png" alt="3d illustration showing william rex working on his laptop"></div> -->
+		</div>
+		<img src="images/william-1920.png" class="hero_pic" alt="3d illustration showing william rex working on his laptop">
+		<div class="hero-buttons-container hero-buttons-mobile d-flex flex-row align-items-center">
+			<a href="#" class="button button-primary trans_300">Kontakt mig</a>
+			<a href="#" class="button button-secondary trans_300">Læs mere</a>
+		</div>
+	</section>
+
+	<!-- ABOUT -->
+	<section class="about page-section" id="about">
+		<!-- Section Title -->
+		<div class="section-title-container text-center">
+			<h2 class="section-title title-underline">Hvem er jeg?</h2>
+			<p class="section-subtitle">Lad os lære hinanden at kende</p>
+		</div>
+		<!-- About Content -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 col-md-6 order-md-1 order-2">
+					<div class="about-text">
+						<div>
+							<p>Jeg er en erfaren og løsningsorienteret D365FO specialist med mere end <strong>5 års</strong> erfaring i design, udvikling og implementering af forretningskritiske løsninger i Microsoft Dynamics 365 Finance and Operations.</p>
+							<p>Jeg har arbejdet på mere end <strong>15 projekter</strong>, herunder som teknisk lead på tre af dem, og har leveret løsninger til kunder inden for energi, produktion, detail og byggeri.</p>
+							<p>Jeg kombinerer dyb teknisk viden i X++, integration og <strong>performanceoptimering</strong> med en stærk forståelse for forretningsprocesser og løsningsarkitektur. Jeg har erfaring med at <strong>omsætte forretningskrav til skalerbare tekniske løsninger</strong> og rådgive kunder om best practices, teknologivalg og integrationsstrategier</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-6 order-md-2 order-1">
+					<div class="about-pic h-100">
+						<div class="h-100">
+							<img src="images/William3DWave.png" alt="Illustration showing William Rex waving.">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- TECHNOLOGIES -->
+	<section class="technologies" id="technologies">
+		<div class="container tech-container">
+			<div class="row">
+				<div class="col">
+					<!-- Section Title -->
+					<div class="section-title-container text-center">
+						<h2 class="section-title title-underline">Teknologier</h2>
+						<p class="section-subtitle">Hvad kan jeg?</p>
+					</div>
+				</div>
+			</div>
+			<div class="row tech-items">
+				<!-- Tech Item 1 -->
+				<div class="col-md-6">
+					<article class="tech-item">
+						<div class="tech-pic tech-pic-1"><img src="images/tech-1.png" alt="illustration of a keyboard"></div>
+						<div class="tech-decor tech-decor-1"><img src="images/decoration-1.png" alt="decorative graphics element"></div>
+						<div class="tech-item-subtitle tech-item-subtitle-small">
+							<div class="d-flex flex-row align-items-center">
+								<img src="images/DevToLogo.svg" alt="Dev community logo">
+								<p>programmeringssprog og logik</p>
+							</div>
+						</div>
+						<h3 class="tech-item-title">Sprog</h3>
+						<ul class="tech-list">
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>X++</span>
+							</li>
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>SQL</span>
+							</li>
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>C#</span>
+							</li>
+						</ul>
+					</article>
+				</div>
+				<!-- Tech Item 2 -->
+				<div class="col-md-6">
+					<article class="tech-item">
+						<div class="tech-pic tech-pic-2"><img src="images/tech-2.png" alt="illustration of a computer"></div>
+						<div class="tech-decor tech-decor-2"><img src="images/decoration-2.png" alt="decorative graphics element"></div>
+						<div class="tech-item-subtitle">
+							<div class="d-flex flex-row align-items-center">
+								<img src="images/Cloud.svg" alt="Cloud logo">
+								<p>Udviklingsmiljøer</p>
+							</div>
+						</div>
+						<h3 class="tech-item-title">Platforme</h3>
+						<ul class="tech-list">
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>D365FO</span>
+							</li>
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>Azure</span>
+							</li>
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>Logic Apps</span>
+							</li>
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>Power platform</span>
+							</li>
+						</ul>
+					</article>
+				</div>
+				<!-- Tech Item 3 -->
+				<div class="col-md-6">
+					<article class="tech-item tech-item-tall">
+						<div class="tech-pic tech-pic-3"><img src="images/tech-3.png" alt="illustration of a tool box"></div>
+						<div class="tech-decor tech-decor-3"><img src="images/decoration-3.png" alt="decorative graphics element"></div>
+						<div class="tech-item-subtitle">
+							<div class="d-flex flex-row align-items-center">
+								<img src="images/PencilRuler.svg" alt="PencilRuler logo">
+								<p>Kodning og versionsstyring</p>
+							</div>
+						</div>
+						<h3 class="tech-item-title">Værktøjer</h3>
+						<ul class="tech-list">
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>Visual Studio</span>
+							</li>
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>Azure DevOps</span>
+							</li>
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>LCS</span>
+							</li>
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>Git</span>
+							</li>
+						</ul>
+					</article>
+				</div>
+				<!-- Tech Item 4 -->
+				<div class="col-md-6">
+					<article class="tech-item tech-item-tall">
+						<div class="tech-pic tech-pic-4"><img src="images/tech-4.png" alt="illustration of a data server"></div>
+						<div class="tech-decor tech-decor-4"><img src="images/decoration-4.png" alt="decorative graphics element"></div>
+						<div class="tech-item-subtitle">
+							<div class="d-flex flex-row align-items-center">
+								<img src="images/ShootingStar.svg" alt="Shooting Star logo">
+								<p>Yderligere kompetencer</p>
+							</div>
+						</div>
+						<h3 class="tech-item-title">Ekstra</h3>
+						<ul class="tech-list">
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>Data Entities</span>
+							</li>
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>Security Roles</span>
+							</li>
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>REST APIs</span>
+							</li>
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>OData</span>
+							</li>
+							<li class="d-flex flex-row align-items-center">
+								<img src="images/star.svg" alt="a star icon">
+								<span>Extensions</span>
+							</li>
+						</ul>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</div>
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="styles/bootstrap-5.3.8/popper.js"></script>
+<script src="styles/bootstrap-5.3.8/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/wow/wow.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

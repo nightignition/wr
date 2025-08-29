@@ -1,0 +1,640 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1440px
+3. 1280px
+4. 1199px
+5. 1024px
+6. 991px
+7. 959px
+8. 880px
+9. 768px
+10. 767px
+11. 539px
+12. 479px
+13. 400px
+
+******************************/
+
+/************
+1. 1710px
+************/
+/* Bootstrap Container Adjustment */
+/* .container
+{
+    --bs-gutter-x: 20px !important;
+    --bs-gutter-y: 0;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+} */
+@media only screen and (min-width: 1200px)
+{
+    .container
+    {
+        max-width: 1020px;
+    }
+}
+
+@media only screen and (max-width: 1710px)
+{
+	.hero-title
+    {
+        font-size: 16.4vw;
+    }
+}
+
+/************
+2. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	.hero_content
+    {
+        padding-left: 64px;
+    }
+}
+
+/************
+3. 1380px
+************/
+
+@media only screen and (max-width: 1380px)
+{
+	
+}
+
+/************
+3. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	
+}
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.about-pic
+    {
+        padding-right: 24px;
+    }
+}
+
+/************
+4. 1100px
+************/
+
+@media only screen and (max-width: 1100px)
+{
+	
+}
+
+/************
+5. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+    .main-nav-links
+    {
+        gap: 36px;
+    }
+	.main-nav-links li a
+    {
+        font-size: 18px;
+    }
+    .language-selector
+    {
+        margin-left: 36px;
+    }
+    .hero-title
+    {
+        font-size: 13vw;
+    }
+    .hero-subtext
+    {
+        margin-top: 36px;
+        font-size: 18px;
+    }
+    .hero-buttons-container
+    {
+        margin-top: 36px;
+    }
+    .button
+    {
+        font-size: 18px;
+    }
+}
+
+/************
+6. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.about-pic img
+    {
+        top: -23px;
+    }
+    .about
+    {
+        padding-top: 65px;
+    }
+    .about-text p
+    {
+        font-size: 16px;
+        margin-bottom: 19px;
+    }
+    .about-text
+    {
+        margin-top: 52px;
+        padding-right: 50px;
+        padding-bottom: 131px;
+    }
+    .about-text > div::after
+    {
+        bottom: -34px;
+        height: 24px;
+    }
+    .about-pic img
+    {
+        -webkit-transform: translateX(-50%) scale(0.833);
+        -moz-transform: translateX(-50%) scale(0.833);
+        -ms-transform: translateX(-50%) scale(0.833);
+        -o-transform: translateX(-50%) scale(0.833);
+        transform: translateX(-50%) scale(0.833);
+    }
+    h2
+    {
+        font-size: 48px;
+    }
+    .section-title.title-underline::after
+    {
+        height: 4px;
+        bottom: -15px;
+        width: 57%;
+    }
+    .section-subtitle
+    {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .tech-items
+    {
+        margin-top: 48px;
+    }
+    .tech-pic-1
+    {
+        right: -2px;
+        width: calc(100% - 5px);
+    }
+    .tech-decor-1
+    {
+        right: 3px;
+        bottom: 124px;
+    }
+    .tech-pic-2
+    {
+        bottom: -10px;
+        right: 61px;
+        width: 195px;
+    }
+    .tech-decor-2
+    {
+        width: 164px;
+        right: 8px;
+        bottom: 136px;
+    }
+    .tech-pic-3
+    {
+        width: 192px;
+        right: 83px;
+        bottom: -19px;
+    }
+    .tech-pic-4
+    {
+        width: 170px;
+        right: 20px;
+        bottom: -28px;
+    }
+    .tech-decor-4
+    {
+        width: 115px;
+        right: 9px;
+        bottom: 191px;
+    }
+}
+
+/************
+7. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+8. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	.main-nav-links
+    {
+        gap: 32px;
+    }
+	.main-nav-links li a
+    {
+        font-size: 16px;
+    }
+    .language-selector
+    {
+        margin-left: 32px;
+    }
+}
+
+/************
+9. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+    .main-nav-links
+    {
+        gap: 30px;
+    }
+    .language-selector
+    {
+        margin-left: 31px;
+    }
+    .header-inner
+    {
+        padding-right: 0;
+        justify-content: center !important;
+    }
+    .header-content
+    {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .hero
+    {
+        height: auto;
+        padding-top: 151px;
+        padding-bottom: 123px;
+    }
+    .hero_content
+    {
+        padding-top: 0;
+    }
+    .hero_content
+    {
+        padding-left: 57px;
+    }
+    .hero-title
+    {
+        font-size: 97px;
+    }
+    .hero-subtext, .button
+    {
+        font-size: 16px;
+    }
+    .hero-subtext
+    {
+        max-width: 330px;
+        margin-top: 20px;
+        padding-left: 0;
+        line-height: 1.45;
+    }
+    .hero-buttons-container
+    {
+        margin-top: 21px;
+        padding-left: 0;
+    }
+    .button
+    {
+        height: 42px;
+        line-height: 42px;
+    }
+    .button-secondary
+    {
+        line-height: 40px;
+    }
+    .hero_pic
+    {
+        left: auto;
+        right: 0;
+        bottom: -40px;
+        height: 89.7%;
+    }
+    .tech-item
+    {
+        padding-bottom: 269px;
+    }
+    .tech-item-title
+    {
+        font-size: 24px;
+        margin-top: 13px;
+    }
+    .tech-list
+    {
+        margin-top: 19px;
+    }
+}
+
+/************
+10. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+    h2
+    {
+        font-size: 32px;
+    }
+    .section-subtitle
+    {
+        opacity: 0.7;
+        margin-top: 26px;
+    }
+    .section-title.title-underline::after
+    {
+        bottom: -16px;
+    }
+	.header
+    {
+        display: none !important;
+    }
+    .hamburger-button
+    {
+        display: block;
+    }
+    .hero
+    {
+        padding-top: 56px;
+    }
+    .hero_pic
+    {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        height: auto;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 67.8vw;
+    }
+    .hero_content
+    {
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        text-align: center;
+    }
+    .hero-title
+    {
+        font-size: 15vw;
+        width: auto;
+        letter-spacing: 0.01em;
+    }
+    .hero-subtext
+    {
+        font-size: 14px;
+        margin-top: 14px;
+    }
+    .hamburger-button
+    {
+        top: 8px;
+        right: 8px;
+    }
+    .hero
+    {
+        padding-bottom: 0;
+    }
+    .button
+    {
+        height: 40px;
+        font-size: 14px;
+    }
+    .buttons-lg
+    {
+        display: none !important;
+    }
+    .hero-buttons-container
+    {
+        position: absolute;
+        left: 0;
+        bottom: 18px;
+    }
+    .hero-buttons-mobile
+    {
+        display: flex !important;
+        width: 100%;
+        justify-content: center;
+    }
+    .hero_pic
+    {
+        margin-top: 4px;
+    }
+    .about
+    {
+        padding-top: 79px;
+    }
+    .about-pic
+    {
+        padding-right: 0;
+        margin-top: 35px;
+    }
+    .about-pic img
+    {
+        position: relative;
+        top: 0;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        max-width: 100%;
+    }
+    .about-text p
+    {
+        font-size: 14px;
+    }
+    .about-text
+    {
+        padding-right: 0;
+        margin-top: 5px;
+        padding-bottom: 47px;
+    }
+    .about-text > div::after
+    {
+        left: 4px;
+        width: 92%;
+    }
+    .about-text > div::after
+    {
+        height: 39px;
+        bottom: -46px;
+    }
+    .technologies
+    {
+        padding-bottom: 44px;
+    }
+    .tech-list li span
+    {
+        font-size: 14px;
+    }
+    .tech-item-subtitle-small
+    {
+        height: 16px;
+    }
+    .tech-item-subtitle-small > div p
+    {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .tech-item-subtitle-small > div img
+    {
+        margin-right: 10px;
+    }
+    .tech-item-title
+    {
+        font-size: 19px;
+    }
+    .tech-list
+    {
+        margin-top: 21px;
+    }
+    .tech-item-title
+    {
+        margin-top: 9px;
+    }
+    .tech-list li:not(:last-child)
+    {
+        margin-bottom: 16px;
+    }
+    .tech-item
+    {
+        height: auto;
+        padding: 16px;
+        padding-bottom: 36px;
+        border-radius: 19px;
+        margin-bottom: 32px;
+    }
+    .tech-pic-1
+    {
+        right: 4px;
+        width: 190px;
+        bottom: -18px;
+    }
+    .tech-decor-1
+    {
+        width: 117px;
+        right: 28px;
+        bottom: 60px;
+    }
+    .tech-item-tall
+    {
+        padding-bottom: 74px;
+    }
+    .tech-pic-2
+    {
+        bottom: -10px;
+        right: 1px;
+        width: 105px;
+    }
+    .tech-decor-2
+    {
+        width: 121px;
+        right: 27px;
+        bottom: 70px;
+        -webkit-transform: rotate(-46.64deg);
+        -moz-transform: rotate(-46.64deg);
+        -ms-transform: rotate(-46.64deg);
+        -o-transform: rotate(-46.64deg);
+        transform: rotate(-46.64deg);
+    }
+    .tech-pic-3
+    {
+        width: 156px;
+        right: 5px;
+        bottom: -25px;
+    }
+    .tech-decor-3
+    {
+        width: 107px;
+        right: 15px;
+        bottom: 80px;
+    }
+    .tech-pic-4
+    {
+        width: 134px;
+        right: 18px;
+        bottom: -32px;
+    }
+    .tech-decor-4
+    {
+        width: 115px;
+        right: -1px;
+        bottom: 134px;
+    }
+}
+
+/************
+11. 575px
+************/
+
+@media only screen and (max-width: 575px)
+{
+	
+}
+
+/************
+11. 539px
+************/
+
+@media only screen and (max-width: 539px)
+{
+	
+}
+
+/************
+12. 480px
+************/
+
+@media only screen and (max-width: 480px)
+{
+	
+}
+
+/************
+13. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	
+}
