@@ -973,5 +973,8 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+	.footer-button
+    {
+        min-width: -webkit-fill-available;
+    }
 }
