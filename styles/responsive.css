@@ -22,16 +22,42 @@
 ******************************/
 
 /************
+1. 1760px
+************/
+
+@media only screen and (max-width: 1760px)
+{
+	.footer .container-fluid
+    {
+        max-width: 1440px;
+    }
+    .footer-title
+    {
+        font-size: 48px;
+    }
+    .footer-subtext
+    {
+        font-size: 20px;
+    }
+    .footer-button
+    {
+        height: 60px;
+    }
+    .footer-button span
+    {
+        font-size: 20px;
+    }
+    .footer-button img
+    {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/************
 1. 1710px
 ************/
-/* Bootstrap Container Adjustment */
-/* .container
-{
-    --bs-gutter-x: 20px !important;
-    --bs-gutter-y: 0;
-    padding-right: 20px !important;
-    padding-left: 20px !important;
-} */
+
 @media only screen and (min-width: 1200px)
 {
     .container
@@ -58,6 +84,15 @@
     {
         padding-left: 64px;
     }
+    .footer .container-fluid
+    {
+        max-width: 1200px;
+    }
+    .contact-form-container
+    {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 
 /************
@@ -75,32 +110,7 @@
 
 @media only screen and (max-width: 1280px)
 {
-	.footer-title
-    {
-        font-size: 48px;
-    }
-    .footer-subtext
-    {
-        font-size: 20px;
-    }
-    .footer-button
-    {
-        height: 60px;
-    }
-    .footer-button span
-    {
-        font-size: 20px;
-    }
-    .footer-button img
-    {
-        width: 32px;
-        height: 32px;
-    }
-    .footer-pic
-    {
-        bottom: -344px;
-        right: 38px;
-    }
+	
 }
 
 /************
@@ -130,16 +140,6 @@
     {
         font-size: 16px;
     }
-    .footer-pic
-    {
-        bottom: -178px;
-        right: 20px;
-        text-align: end;
-    }
-    .footer-pic img
-    {
-        width: 294px;
-    }
     .footer-buttons
     {
         flex-direction: column !important;
@@ -162,6 +162,30 @@
         max-width: 300px;
         line-height: 1.4;
         margin-top: 17px;
+    }
+    .contact-form-container
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footer .container-fluid
+    {
+        max-width: 960px;
+    }
+    .terms-and-conditions
+    {
+        position: relative;
+        right: auto;
+        top: auto;
+        -webkit-transform: translateY(0%) rotate(0deg);
+        -moz-transform: translateY(0%) rotate(0deg);
+        -ms-transform: translateY(0%) rotate(0deg);
+        -o-transform: translateY(0%) rotate(0deg);
+        transform: translateY(0%) rotate(0deg);
+        padding-top: 24px;
+        padding-bottom: 24px;
+        border-top: solid 1px rgba(255, 255, 255, 0.2);
+        margin-top: 60px;
     }
 }
 
@@ -327,6 +351,28 @@
     .project-content
     {
         padding-top: 24px;
+    }
+    .footer .container-fluid
+    {
+        max-width: 100%;
+    }
+    .footer-content
+    {
+        padding-left: 24px;
+    }
+    .contact-form-container
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .footer-buttons
+    {
+        flex-direction: row !important;
+        align-items: start !important;
+    }
+    .footer-button
+    {
+        min-width: auto;
     }
 }
 
@@ -754,16 +800,6 @@
     {
         padding-bottom: 14px;
     }
-    .footer-pic
-    {
-        bottom: auto;
-        top: 50px;
-        right: 0px;
-    }
-    .footer-pic img
-    {
-        width: 133px;
-    }
     .footer-content
     {
         padding-bottom: 43px;
@@ -804,15 +840,7 @@
     }
     .terms-and-conditions
     {
-        position: relative;
-        right: auto;
-        top: auto;
-        -webkit-transform: translateY(0%) rotate(0deg);
-        -moz-transform: translateY(0%) rotate(0deg);
-        -ms-transform: translateY(0%) rotate(0deg);
-        -o-transform: translateY(0%) rotate(0deg);
-        transform: translateY(0%) rotate(0deg);
-        padding-bottom: 0;
+        padding-bottom: 8px;
     }
     .terms-and-conditions nav ul
     {
@@ -834,7 +862,81 @@
 
 @media only screen and (max-width: 575px)
 {
-	
+	.footer-buttons
+    {
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+    .footer-button
+    {
+        min-width: -webkit-fill-available;
+    }
+    .contact-form > div
+    {
+        flex-direction: column !important;
+    }
+    .contact-form-container
+    {
+        margin-top: 13px;
+    }
+    .contact-input, .contact-button
+    {
+        height: 56px;
+    }
+    .contact-input::-webkit-input-placeholder
+    {
+        font-size: 16px !important;
+    }
+    .contact-input:-moz-placeholder
+    {
+        font-size: 16px !important;
+    }
+    .contact-input::-moz-placeholder
+    {
+        font-size: 16px !important;
+    } 
+    .contact-input:-ms-input-placeholder
+    { 
+        font-size: 16px !important;
+    }
+    .contact-input::input-placeholder
+    {
+        font-size: 16px !important;
+    }
+
+    .contact-message::-webkit-input-placeholder
+    {
+        font-size: 16px !important;
+    }
+    .contact-message:-moz-placeholder
+    {
+        font-size: 16px !important;
+    }
+    .contact-message::-moz-placeholder
+    {
+        font-size: 16px !important;
+    } 
+    .contact-message:-ms-input-placeholder
+    { 
+        font-size: 16px !important;
+    }
+    .contact-message::input-placeholder
+    {
+        font-size: 16px !important;
+    }
+    .footer-content
+    {
+        padding-left: 0;
+    }
+    .contact-form-container
+    {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact-button
+    {
+        font-size: 16px;
+    }
 }
 
 /************

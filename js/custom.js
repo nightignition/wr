@@ -13,6 +13,7 @@
 7. Init Section Mark
 8. Init Wow
 9. Init Loader
+10. Init Contact Form
 
 
 ******************************/
@@ -35,6 +36,7 @@ $(document).ready(function()
 	sectionMark();
 	initWow();
 	initLoader();
+	initContactForm();
 
 	$(window).on('resize', function()
 	{
@@ -273,6 +275,23 @@ $(document).ready(function()
 			loader.classList.remove("active");
 			body.classList.remove("preload-active");
 		}, 1500);
+	}
+
+	/* 
+
+	10. Init Contact Form
+
+	*/
+
+	function initContactForm()
+	{
+		document.querySelector("#contact-form").addEventListener("submit", function (e)
+		{
+			e.preventDefault();
+
+			document.querySelector(".form-status").textContent = "Message sent successfully!";
+			document.querySelector(".form-status").classList.add("visible");
+		});
 	}
 
 });
