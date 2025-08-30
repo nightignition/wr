@@ -137,22 +137,6 @@ p a:active
 	position: relative;
 	color: #FF6347;
 }
-p a:hover
-{
-	
-}
-p a:hover::after
-{
-	
-}
-::selection
-{
-	
-}
-p::selection
-{
-	
-}
 h1{font-size: 276px;}
 h2{font-size: 70px;}
 h3{font-size: 40px;}
@@ -169,15 +153,6 @@ h1, h2, h3, h4, h5, h6
 	color: var(--hColor);
 	font-weight: 700;
 	letter-spacing: 0.01em;
-}
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
-h6::selection
-{
-	
 }
 img
 {
@@ -389,8 +364,8 @@ body.preload-active
 @-webkit-keyframes fadeInRight {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(50px, 0, 0);
-    transform: translate3d(50px, 0, 0);
+    -webkit-transform: translate3d(75px, 0, 0);
+    transform: translate3d(75px, 0, 0);
   }
 
   to {
@@ -402,8 +377,8 @@ body.preload-active
 @keyframes fadeInRight {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(50px, 0, 0);
-    transform: translate3d(50px, 0, 0);
+    -webkit-transform: translate3d(75px, 0, 0);
+    transform: translate3d(75px, 0, 0);
   }
 
   to {
@@ -420,8 +395,8 @@ body.preload-active
 @-webkit-keyframes fadeInLeft {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(-50px, 0, 0);
-    transform: translate3d(-50px, 0, 0);
+    -webkit-transform: translate3d(-75px, 0, 0);
+    transform: translate3d(-75px, 0, 0);
   }
 
   to {
@@ -433,8 +408,8 @@ body.preload-active
 @keyframes fadeInLeft {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(-50px, 0, 0);
-    transform: translate3d(-50px, 0, 0);
+    -webkit-transform: translate3d(-75px, 0, 0);
+    transform: translate3d(-75px, 0, 0);
   }
 
   to {
@@ -447,7 +422,10 @@ body.preload-active
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
 }
-
+.wow-delay
+{
+	animation-delay: 300ms;
+}
 
 /*********************************
 3. Menu
@@ -787,10 +765,6 @@ body.preload-active
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#449FE5", endColorstr="#95B4CB", GradientType=0);
 	overflow: hidden;
 }
-.hero .container
-{
-
-}
 .hero_content_container
 {
 	width: 100%;
@@ -892,10 +866,6 @@ body.preload-active
 6. About
 *********************************/
 
-.page-section
-{
-
-}
 .section-title
 {
 	display: inline-block;
@@ -1166,10 +1136,6 @@ body.preload-active
 	width: 40px;
 	height: 40px;
 	margin-right: 10px;
-}
-.testimonial-author img
-{
-	
 }
 .testimonial-author span span
 {
