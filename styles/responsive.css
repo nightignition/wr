@@ -968,7 +968,10 @@
 
 @media only screen and (max-width: 479px)
 {
-	
+	.footer-button
+    {
+        min-width: -webkit-fill-available;
+    }
 }
 
 /************
@@ -982,4 +985,5 @@
         min-width: -webkit-fill-available;
     }
 }
+
 
