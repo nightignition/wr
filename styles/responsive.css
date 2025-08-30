@@ -864,12 +864,13 @@
 {
 	.footer-buttons
     {
-        flex-direction: column !important;
+        gap: 10px;
+        /* flex-direction: column !important; */
         align-items: start !important;
     }
     .footer-button
     {
-        min-width: -webkit-fill-available;
+        /* min-width: -webkit-fill-available; */
     }
     .contact-form > div
     {
