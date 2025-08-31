@@ -189,7 +189,6 @@
         padding-top: 24px;
         padding-bottom: 24px;
         border-top: solid 1px rgba(255, 255, 255, 0.2);
-        margin-top: 60px;
     }
     .contact-input
     {
@@ -426,6 +425,10 @@
     .footer-button
     {
         min-width: auto;
+    }
+    .terms-and-conditions
+    {
+        margin-top: 60px;
     }
 }
 
