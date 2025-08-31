@@ -52,6 +52,10 @@
         width: 32px;
         height: 32px;
     }
+    .contact-button
+    {
+        font-size: 20px;
+    }
 }
 
 /************
@@ -186,6 +190,55 @@
         padding-bottom: 24px;
         border-top: solid 1px rgba(255, 255, 255, 0.2);
         margin-top: 60px;
+    }
+    .contact-input
+    {
+        height: 52px;
+    }
+    .contact-button
+    {
+        font-size: 16px;
+        height: 52px;
+    }
+    .contact-input::-webkit-input-placeholder
+    {
+        font-size: 16px !important;
+    }
+    .contact-input:-moz-placeholder
+    {
+        font-size: 16px !important;
+    }
+    .contact-input::-moz-placeholder
+    {
+        font-size: 16px !important;
+    } 
+    .contact-input:-ms-input-placeholder
+    { 
+        font-size: 16px !important;
+    }
+    .contact-input::input-placeholder
+    {
+        font-size: 16px !important;
+    }
+    .contact-message::-webkit-input-placeholder
+    {
+        font-size: 16px !important;
+    }
+    .contact-message:-moz-placeholder
+    {
+        font-size: 16px !important;
+    }
+    .contact-message::-moz-placeholder
+    {
+        font-size: 16px !important;
+    } 
+    .contact-message:-ms-input-placeholder
+    { 
+        font-size: 16px !important;
+    }
+    .contact-message::input-placeholder
+    {
+        font-size: 16px !important;
     }
 }
 
@@ -854,6 +907,63 @@
     {
         padding-top: 65px;
     }
+    .contact-input, .contact-button
+    {
+        height: 52px;
+        font-size: 14px;
+    }
+    .contact-input::-webkit-input-placeholder
+    {
+        font-size: 14px !important;
+    }
+    .contact-input:-moz-placeholder
+    {
+        font-size: 14px !important;
+    }
+    .contact-input::-moz-placeholder
+    {
+        font-size: 14px !important;
+    } 
+    .contact-input:-ms-input-placeholder
+    { 
+        font-size: 14px !important;
+    }
+    .contact-input::input-placeholder
+    {
+        font-size: 14px !important;
+    }
+    .contact-message::-webkit-input-placeholder
+    {
+        font-size: 14px !important;
+    }
+    .contact-message:-moz-placeholder
+    {
+        font-size: 14px !important;
+    }
+    .contact-message::-moz-placeholder
+    {
+        font-size: 14px !important;
+    } 
+    .contact-message:-ms-input-placeholder
+    { 
+        font-size: 14px !important;
+    }
+    .contact-message::input-placeholder
+    {
+        font-size: 14px !important;
+    }
+    .contact-input, .contact-message
+    {
+        font-size: 16px;
+    }
+    .footer-buttons
+    {
+        gap: 10px;
+    }
+    .contact-form > div
+    {
+        gap: 10px;
+    }
 }
 
 /************
@@ -864,7 +974,6 @@
 {
 	.footer-buttons
     {
-        gap: 10px;
         /* flex-direction: column !important; */
         align-items: start !important;
     }
@@ -872,7 +981,7 @@
     {
         /* min-width: -webkit-fill-available; */
     }
-	.footer-button img
+    .footer-button img
     {
         margin-right: 8px;
     }
@@ -883,51 +992,6 @@
     .contact-form-container
     {
         margin-top: 13px;
-    }
-    .contact-input, .contact-button
-    {
-        height: 56px;
-    }
-    .contact-input::-webkit-input-placeholder
-    {
-        font-size: 16px !important;
-    }
-    .contact-input:-moz-placeholder
-    {
-        font-size: 16px !important;
-    }
-    .contact-input::-moz-placeholder
-    {
-        font-size: 16px !important;
-    } 
-    .contact-input:-ms-input-placeholder
-    { 
-        font-size: 16px !important;
-    }
-    .contact-input::input-placeholder
-    {
-        font-size: 16px !important;
-    }
-
-    .contact-message::-webkit-input-placeholder
-    {
-        font-size: 16px !important;
-    }
-    .contact-message:-moz-placeholder
-    {
-        font-size: 16px !important;
-    }
-    .contact-message::-moz-placeholder
-    {
-        font-size: 16px !important;
-    } 
-    .contact-message:-ms-input-placeholder
-    { 
-        font-size: 16px !important;
-    }
-    .contact-message::input-placeholder
-    {
-        font-size: 16px !important;
     }
     .footer-content
     {
@@ -980,10 +1044,5 @@
 
 @media only screen and (max-width: 400px)
 {
-	.footer-button
-    {
-        min-width: -webkit-fill-available;
-    }
+	
 }
-
-
