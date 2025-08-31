@@ -41,18 +41,21 @@ $(document).ready(function()
 	$(window).on('resize', function()
 	{
 		initHeader();
+		initParallax();
 	});
 
 	$(document).on('scroll', function()
 	{
 		initHeader();
 		sectionMark();
+		initParallax();
 	});
 
 	$(document).on('load', function()
 	{
 		initHeader();
 		sectionMark();
+		initParallax();
 	});
 
 	/* 
@@ -293,5 +296,6 @@ $(document).ready(function()
 			document.querySelector(".form-status").classList.add("visible");
 		});
 	}
+
 
 });
